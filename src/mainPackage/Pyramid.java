@@ -35,7 +35,7 @@ public class Pyramid {
 			}
 			u = u - 1;
 			for(int y = 0;y<=i;y++){
-				text = text + "A ";
+				text = text + "@ ";
 			}
 			label.setText(text);
 			panel.add(label);
